@@ -1,28 +1,21 @@
 #!/usr/bin/env python
 
-from datetime import datetime
+from datetime import date
 from jinja2 import Environment, FileSystemLoader
 import os
 import shutil
 
-now = datetime.now()
-
-#path = os.path.join('out', now.strftime('%Y%m%d%H%M%S'))
-#if not os.path.exists(path):
-#    os.makedirs(path)
 path = 'out'
-if os.path.exists(path):
-    shutil.rmtree(path)
-os.mkdir(path)
 
 environment = Environment(loader=FileSystemLoader('templates'))
 
 global_context = {
-    'year': now.year
+    'year': date.today().year
 }
 
 media = {
     'files': [
+        '.htaccess',
         'robots.txt',
         'sitemap.xml',
     ],
@@ -34,6 +27,7 @@ media = {
 def render(template_name, context=None):
     if context is None:
         context = {}
+    context['template_name'] = template_name
     context.update(global_context)
     template = environment.get_template(template_name)
     rendered_template = template.render(context)
@@ -42,6 +36,9 @@ def render(template_name, context=None):
     o.close()
 
 def main():
+    if os.path.exists(path):
+        shutil.rmtree(path)
+    os.mkdir(path)
     render('activities.html')
     render('brothers.html')
     render('chapter.html')
