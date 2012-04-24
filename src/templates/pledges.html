@@ -2,7 +2,32 @@
 
 {% block content %}
 <div class="page-header">
-    <h1></h1>
+    <h1>Pledges</h1>
 </div>
-<p></p>
+{% if pledges %}
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>Name</th>
+                <th>Hometown</th>
+                <th>Major</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for pledge in pledges %}
+                <tr>
+                    <td>{{ pledge.username }}</td>
+                    <td>{{ pledge.name }}</td>
+                    <td>{{ pledge.hometown }}</td>
+                    <td>{{ pledge.major }}</td>
+                    <td>{{ pledge.year }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% else %}
+    <p>There are no pledges, yet.</p>
+{% endif %}
 {% endblock %}

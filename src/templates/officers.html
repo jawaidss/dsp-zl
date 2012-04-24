@@ -2,7 +2,60 @@
 
 {% block content %}
 <div class="page-header">
-    <h1></h1>
+    <h1>Officers</h1>
 </div>
-<p></p>
+<ul class="nav nav-tabs">
+    {% for officer_type in officers %}
+        <li{% if loop.first %} class="active"{% endif %}><a href="#type-{{ officer_type.type|lower }}" data-toggle="tab">{{ officer_type.type }}</a></li>
+    {% endfor %}
+    <li{% if not officers %} class="active"{% endif %}><a href="#type-advisors" data-toggle="tab">Advisors</a></li>
+</ul>
+<div class="tab-content">
+    {% for officer_type in officers %}
+        {% if officer_type.officers %}
+            <div class="tab-pane{% if loop.first %} active{% endif %}" id="type-{{ officer_type.type|lower }}">
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th>Name</th>
+                            <th>Office</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for officer in officer_type.officers %}
+                            <tr>
+                                <td>{{ officer.username }}</td>
+                                <td>{{ officer.name }}</td>
+                                <td>{{ officer.office }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        {% else %}
+            <p>There are no {{ officer_type.type|lower }} officers, yet.</p>
+        {% endif %}
+    {% endfor %}
+    <div class="tab-pane{% if not officers %} active{% endif %}" id="type-advisors">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>grigg</td>
+                    <td>Grigg, Cliff</td>
+                </tr>
+                <tr>
+                    <td>webster</td>
+                    <td>Webster, Ben</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
 {% endblock %}

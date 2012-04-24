@@ -1,0 +1,23 @@
+[
+    {
+        "hometown": "Indianapolis, IN", 
+        "major": "Mechanical Engineering", 
+        "name": "Catlow, Eric Joseph", 
+        "username": "catlowej", 
+        "year": 2015
+    }, 
+    {
+        "hometown": "Dayton, OH", 
+        "major": "Civil Engineering", 
+        "name": "Glardon, Thomas Louis", 
+        "username": "glardotl", 
+        "year": 2015
+    }, 
+    {
+        "hometown": "New Haven, IN", 
+        "major": "Electrical Engineering", 
+        "name": "Gore, Brian Keegan", 
+        "username": "gorebk", 
+        "year": 2014
+    }
+]

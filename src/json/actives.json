@@ -1,0 +1,460 @@
+[
+    {
+        "actives": [
+            {
+                "hometown": "Bangkok, Thailand", 
+                "major": "Electrical Engineering", 
+                "name": "Aramrueng, Passakorn", 
+                "username": "aramrup"
+            }, 
+            {
+                "hometown": "Westfield, IN", 
+                "major": "Optical Engineering", 
+                "name": "Falco, Stuart James", 
+                "username": "falcosj"
+            }, 
+            {
+                "hometown": "Terre Haute, IN", 
+                "major": "Mechanical Engineering", 
+                "name": "Gosnell, Zachary Ray", 
+                "username": "gosnelzr"
+            }, 
+            {
+                "hometown": "Hinsdale, IL", 
+                "major": "Mechanical Engineering", 
+                "name": "Grove, Maxwell Allen", 
+                "username": "grovema"
+            }, 
+            {
+                "hometown": "Roanoke, IN", 
+                "major": "Mechanical Engineering", 
+                "name": "Herber, Mark Steven", 
+                "username": "herberms"
+            }, 
+            {
+                "hometown": "Park Ridge, IL", 
+                "major": "Chemical Engineering", 
+                "name": "Huening, Robert Charles", 
+                "username": "hueninrc"
+            }, 
+            {
+                "hometown": "Lake Forest, IL", 
+                "major": "Computer Science and Mathematics", 
+                "name": "Klein, Peter Anthony", 
+                "username": "kleinpa"
+            }, 
+            {
+                "hometown": "Swannanoa, NC", 
+                "major": "Chemical Engineering", 
+                "name": "Lee, Parker Waterfield", 
+                "username": "leepw"
+            }, 
+            {
+                "hometown": "Owensboro, KY", 
+                "major": "Computer Science", 
+                "name": "Moore, James Andrew", 
+                "username": "mooreja1"
+            }, 
+            {
+                "hometown": "Lexington, SC", 
+                "major": "Software Engineering", 
+                "name": "Moore, Matthew Oran", 
+                "username": "mooremo"
+            }, 
+            {
+                "hometown": "Ferdinand, IN", 
+                "major": "Civil Engineering", 
+                "name": "Schlachter, Craig Aaron", 
+                "username": "schlacca"
+            }, 
+            {
+                "hometown": "West Harrison, IN", 
+                "major": "Mechanical Engineering", 
+                "name": "Schulten, Ryan John", 
+                "username": "schultr1"
+            }, 
+            {
+                "hometown": "Phoenix, AZ", 
+                "major": "Mechanical Engineering", 
+                "name": "Simpson, Gary Forest", 
+                "username": "simpsogf"
+            }, 
+            {
+                "hometown": "Richmond, IN", 
+                "major": "Civil Engineering", 
+                "name": "Slifer, Jacob Duane", 
+                "username": "sliferjd"
+            }, 
+            {
+                "hometown": "North Vernon, IN", 
+                "major": "Civil Engineering", 
+                "name": "Sollman, Benjamin Christopher", 
+                "username": "sollmabc"
+            }, 
+            {
+                "hometown": "Fort Wayne, IN", 
+                "major": "Mechanical Engineering", 
+                "name": "Swift, William Matthew", 
+                "username": "swiftwm"
+            }, 
+            {
+                "hometown": "Martinsville, IN", 
+                "major": "Mechanical Engineering", 
+                "name": "Warmoth, Jacob Ray", 
+                "username": "warmotjr"
+            }, 
+            {
+                "hometown": "Harrisburg, PA", 
+                "major": "Optical Engineering", 
+                "name": "Wine, Chad Matthew", 
+                "username": "winecm"
+            }, 
+            {
+                "hometown": "Avon, IN", 
+                "major": "Chemical Engineering", 
+                "name": "Wojan, James Curtis", 
+                "username": "wojanjc"
+            }, 
+            {
+                "hometown": "Olympia, WA", 
+                "major": "Chemical Engineering", 
+                "name": "Wuepper, Karl Josef", 
+                "username": "wueppekj"
+            }, 
+            {
+                "hometown": "Jersey City, NJ", 
+                "major": "Electrical Engineering", 
+                "name": "Zalah, Nick", 
+                "username": "zalahn"
+            }, 
+            {
+                "hometown": "Oak Lawn, IL", 
+                "major": "Mechanical Engineering", 
+                "name": "Zero, Michael John", 
+                "username": "zeromj"
+            }, 
+            {
+                "hometown": "Downers Grove, IL", 
+                "major": "Computer Engineering", 
+                "name": "Zitnik, David John", 
+                "username": "zitnikdj"
+            }
+        ], 
+        "year": 2012
+    }, 
+    {
+        "actives": [
+            {
+                "hometown": "Ontario, Canada", 
+                "major": "Electrical Engineering", 
+                "name": "Cisneros, Peter Daniel", 
+                "username": "cisnerpd"
+            }, 
+            {
+                "hometown": "Severna Park, MD", 
+                "major": "Electrical Engineering", 
+                "name": "Clarke, William James", 
+                "username": "clarkewj"
+            }, 
+            {
+                "hometown": "Mt. Carmel, IL", 
+                "major": "Civil Engineering", 
+                "name": "Condol, Clay William", 
+                "username": "condolcw"
+            }, 
+            {
+                "hometown": "Rushville, IN", 
+                "major": "Software Engineering", 
+                "name": "Drake, Caleb Bryce", 
+                "username": "drakecb"
+            }, 
+            {
+                "hometown": "Champaign, IL", 
+                "major": "Civil Engineering", 
+                "name": "Foltz, Thomas Maxwell", 
+                "username": "foltztm"
+            }, 
+            {
+                "hometown": "Mooresville, IN", 
+                "major": "Mechanical Engineering", 
+                "name": "Horner, Lucas Trent", 
+                "username": "hornerlt"
+            }, 
+            {
+                "hometown": "Waverly, IN", 
+                "major": "Physics", 
+                "name": "Jacobs, James Marshall", 
+                "username": "jacobsj1"
+            }, 
+            {
+                "hometown": "Louisville, KY", 
+                "major": "Computer Science and Mathematics", 
+                "name": "Jawaid, Samad Shad", 
+                "username": "jawaidss"
+            }, 
+            {
+                "hometown": "Forreston, IL", 
+                "major": "Chemical Engineering", 
+                "name": "Kilker, Sean Russell", 
+                "username": "kilkersr"
+            }, 
+            {
+                "hometown": "Claremont, CA", 
+                "major": "Mechanical Engineering", 
+                "name": "Moore, Ryely Alan", 
+                "username": "moorera1"
+            }, 
+            {
+                "hometown": "Park Ridge, IL", 
+                "major": "Civil Engineering", 
+                "name": "Piekos, Gregory Vincent", 
+                "username": "piekosgv"
+            }, 
+            {
+                "hometown": "Channahon, IL", 
+                "major": "Mechanical Engineering", 
+                "name": "Vershay, Kevin Charles", 
+                "username": "vershakc"
+            }
+        ], 
+        "year": 2013
+    }, 
+    {
+        "actives": [
+            {
+                "hometown": "Greenwood, IN", 
+                "major": "Chemical Engineering", 
+                "name": "Caraway, Kristofer Keith", 
+                "username": "carawakk"
+            }, 
+            {
+                "hometown": "Libertyville, IL", 
+                "major": "Civil Engineering", 
+                "name": "Cepa, Reid William", 
+                "username": "ceparw"
+            }, 
+            {
+                "hometown": "Thessaloniki, Greece", 
+                "major": "Chemical Engineering", 
+                "name": "Drakontis, Thomas Sarantos", 
+                "username": "drakonts"
+            }, 
+            {
+                "hometown": "South Amherst, MA", 
+                "major": "Biomedical Engineering", 
+                "name": "Eddy, David Lowrey", 
+                "username": "eddydl"
+            }, 
+            {
+                "hometown": "Thessaloniki, Greece", 
+                "major": "Chemical Engineering", 
+                "name": "Famprikis, Theodosios Vasilios", 
+                "username": "fambritv"
+            }, 
+            {
+                "hometown": "Cincinnati, OH", 
+                "major": "Mechanical Engineering", 
+                "name": "Kathman, Thomas Eugene", 
+                "username": "kathmate"
+            }, 
+            {
+                "hometown": "Montville, NJ", 
+                "major": "Software Engineering", 
+                "name": "Kessler, Dylan Ian", 
+                "username": "kessledi"
+            }, 
+            {
+                "hometown": "Markle, IN", 
+                "major": "Mechanical Engineering", 
+                "name": "King, Joshua Garrett", 
+                "username": "kingjg"
+            }, 
+            {
+                "hometown": "Pewaukee, WI", 
+                "major": "Mechanical Engineering", 
+                "name": "Lokken, Peter John", 
+                "username": "lokkenpj"
+            }, 
+            {
+                "hometown": "Houston, TX", 
+                "major": "Physics", 
+                "name": "McCammon, Joshua Ryan", 
+                "username": "mccammjr"
+            }, 
+            {
+                "hometown": "Guilford, IN", 
+                "major": "Mechanical Engineering", 
+                "name": "McDonough, Nicholas Alexander", 
+                "username": "mcdonona"
+            }, 
+            {
+                "hometown": "Hiawatha, KS", 
+                "major": "Mechanical Engineering", 
+                "name": "Merchant, Alexander Ryan", 
+                "username": "merchaar"
+            }, 
+            {
+                "hometown": "Trenton, OH", 
+                "major": "Mechanical Engineering", 
+                "name": "O'Connor, Ethan Patrick", 
+                "username": "oconnoep"
+            }, 
+            {
+                "hometown": "Chicago, IL", 
+                "major": "Chemical Engineering", 
+                "name": "Otero, Samuel Ervin", 
+                "username": "oterose"
+            }, 
+            {
+                "hometown": "San Francisco, CA", 
+                "major": "Mechanical Engineering", 
+                "name": "Olinger, Christopher Allen", 
+                "username": "olingeca"
+            }, 
+            {
+                "hometown": "Batavia, IL", 
+                "major": "Mechanical Engineering", 
+                "name": "Phillips, Charles David", 
+                "username": "phillicd"
+            }, 
+            {
+                "hometown": "Brownsburg, IN", 
+                "major": "Chemical Engineering", 
+                "name": "Quinn, Kyle Joseph", 
+                "username": "quinnkj"
+            }, 
+            {
+                "hometown": "Carteret, NJ", 
+                "major": "Mechanical Engineering", 
+                "name": "Ringwood, Colin James", 
+                "username": "ringwocj"
+            }, 
+            {
+                "hometown": "Palo Alto, CA", 
+                "major": "Mechanical Engineering", 
+                "name": "Stephens, Matthew Wilson", 
+                "username": "stephemw"
+            }, 
+            {
+                "hometown": "Mt. Prospect, IL", 
+                "major": "Optical Engineering", 
+                "name": "Strahinic, Alan Fast", 
+                "username": "strahiaf"
+            }, 
+            {
+                "hometown": "Nashville, TN", 
+                "major": "Computer Engineering", 
+                "name": "Tiller, Andrew James", 
+                "username": "tilleraj"
+            }, 
+            {
+                "hometown": "Rolling Meadows, IL", 
+                "major": "Mechanical Engineering", 
+                "name": "Troope, Zachary Thomas", 
+                "username": "troopezt"
+            }, 
+            {
+                "hometown": "Kettering, OH", 
+                "major": "Chemical Engineering", 
+                "name": "Untener, Daniel Ahlrichs", 
+                "username": "unteneda"
+            }, 
+            {
+                "hometown": "Eminence, IN", 
+                "major": "Mechanical Engineering", 
+                "name": "Warmoth, Grant Robert", 
+                "username": "warmotgr"
+            }, 
+            {
+                "hometown": "Fort Wayne, IN", 
+                "major": "Mechanical Engineering", 
+                "name": "Wuest, Stephen John", 
+                "username": "wuestsj"
+            }
+        ], 
+        "year": 2014
+    }, 
+    {
+        "actives": [
+            {
+                "hometown": "McLean, VA", 
+                "major": "Computer Engineering", 
+                "name": "Alvarez, Alexander Pol", 
+                "username": "alvareap"
+            }, 
+            {
+                "hometown": "Westfield, IN", 
+                "major": "Chemical Engineering", 
+                "name": "Arriaga, David Andrew", 
+                "username": "arriagda"
+            }, 
+            {
+                "hometown": "Cohasset, MN", 
+                "major": "Engineering Physics", 
+                "name": "Bromenschenkel, Asa Draic", 
+                "username": "bromenad"
+            }, 
+            {
+                "hometown": "Houston, TX", 
+                "major": "Computer Engineering", 
+                "name": "Earles, Jonathan Andrew", 
+                "username": "earlesja"
+            }, 
+            {
+                "hometown": "Hammond, IN", 
+                "major": "Civil Engineering", 
+                "name": "Goodrich, Maxwell Raymond", 
+                "username": "goodrim"
+            }, 
+            {
+                "hometown": "South Pasadena, CA", 
+                "major": "Chemical Engineering", 
+                "name": "Kabealo, Jacob Scott", 
+                "username": "kabealjs"
+            }, 
+            {
+                "hometown": "Kentfield, CA", 
+                "major": "Computer Science", 
+                "name": "Lockard, Brodie Marmion", 
+                "username": "lockarbm"
+            }, 
+            {
+                "hometown": "Cincinnati, OH", 
+                "major": "Mechanical Engineering", 
+                "name": "McGoff, Joseph Grady", 
+                "username": "mcgoffjg"
+            }, 
+            {
+                "hometown": "Munster, IN", 
+                "major": "Computer Engineering", 
+                "name": "Mendez, Drew Alan", 
+                "username": "mendezda"
+            }, 
+            {
+                "hometown": "Beijing, China", 
+                "major": "Computer Science", 
+                "name": "Meng, Xiangbo", 
+                "username": "mengx"
+            }, 
+            {
+                "hometown": "Floyds Knobs, IN", 
+                "major": "Biochemistry", 
+                "name": "Pepin, Christopher William", 
+                "username": "pepincw"
+            }, 
+            {
+                "hometown": "Portage, MI", 
+                "major": "Chemical Engineering", 
+                "name": "Stephani, John Edward", 
+                "username": "stephaje"
+            }, 
+            {
+                "hometown": "Libertyville, IL", 
+                "major": "Mechanical Engineering", 
+                "name": "Varner, Michael Austin", 
+                "username": "varnerma"
+            }
+        ], 
+        "year": 2015
+    }
+]

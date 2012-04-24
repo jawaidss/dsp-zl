@@ -2,6 +2,7 @@
 
 from datetime import date
 from jinja2 import Environment, FileSystemLoader
+import json
 import os
 import shutil
 
@@ -9,9 +10,32 @@ path = 'out'
 
 environment = Environment(loader=FileSystemLoader('templates'))
 
+def load(json_filename):
+    o = open(os.path.join('json', json_filename))
+    json_string = o.read()
+    o.close()
+    return json.loads(json_string)
+
+def mungify(username):
+    mailto = 'mailto:%s@rose-hulman.edu' % username
+    return ''.join(['&#%s;' % (ord(c)) for c in mailto])
+
+actives = load('actives.json')
+officers = load('officers.json')
+pledges = load('pledges.json')
+
 global_context = {
+    'contact': '#',
+    'webmaster': '#',
     'year': date.today().year
 }
+
+for officer_type in officers:
+    for officer in officer_type['officers']:
+        if officer['office'] == 'President':
+            global_context['contact'] = mungify(officer['username'])
+        elif officer['office'] == 'Webmaster':
+            global_context['webmaster'] = mungify(officer['username'])
 
 media = {
     'files': [
@@ -40,13 +64,13 @@ def main():
         shutil.rmtree(path)
     os.mkdir(path)
     render('activities.html')
-    render('brothers.html')
+    render('brothers.html', {'actives': actives})
     render('chapter.html')
     render('fraternity.html')
     render('index.html')
-    render('officers.html')
+    render('officers.html', {'officers': officers})
     render('philanthropy.html')
-    render('pledges.html')
+    render('pledges.html', {'pledges': pledges})
     render('preamble.html')
     render('rush.html')
     render('social.html')

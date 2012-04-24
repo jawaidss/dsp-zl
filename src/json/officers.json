@@ -1,0 +1,142 @@
+[
+    {
+        "officers": [
+            {
+                "name": "Kilker, Sean Russell", 
+                "office": "President", 
+                "username": "kilkersr"
+            }, 
+            {
+                "name": "McCammon, Joshua Ryan", 
+                "office": "Vice-President", 
+                "username": "mccammjr"
+            }, 
+            {
+                "name": "Clarke, William James", 
+                "office": "Engineered Leadership Director", 
+                "username": "clarkewj"
+            }, 
+            {
+                "name": "Moore, Ryely Alan", 
+                "office": "Secretary", 
+                "username": "moorera1"
+            }, 
+            {
+                "name": "Kessler, Dylan Ian", 
+                "office": "Treasurer of Accounts Payable", 
+                "username": "kessledi"
+            }, 
+            {
+                "name": "Ringwood, Colin James", 
+                "office": "Treasurer of Accounts Receivable", 
+                "username": "ringwocj"
+            }, 
+            {
+                "name": "Stephens, Matthew Wilson", 
+                "office": "Steward", 
+                "username": "stephemw"
+            }, 
+            {
+                "name": "Otero, Samuel Ervin", 
+                "office": "Rush Director", 
+                "username": "oterose"
+            }, 
+            {
+                "name": "O'Connor, Ethan Patrick", 
+                "office": "House Manager", 
+                "username": "oconnoep"
+            }, 
+            {
+                "name": "Warmoth, Grant Robert", 
+                "office": "Social Director", 
+                "username": "warmotgr"
+            }, 
+            {
+                "name": "Phillips, Charles David", 
+                "office": "Bid Selection Committee Chairman", 
+                "username": "phillicd"
+            }
+        ], 
+        "type": "Elected"
+    }, 
+    {
+        "officers": [
+            {
+                "name": "Cisneros, Peter Daniel", 
+                "office": "Sergeant-at-Arms", 
+                "username": "cisnerpd"
+            }, 
+            {
+                "name": "Lokken, Peter John", 
+                "office": "Pledge Director", 
+                "username": "lokkenpj"
+            }, 
+            {
+                "name": "Alvarez, Alexander Pol", 
+                "office": "Activities Director", 
+                "username": "alvareap"
+            }, 
+            {
+                "name": "Goodrich, Maxwell Raymond", 
+                "office": "Athletics Director", 
+                "username": "goodrim"
+            }, 
+            {
+                "name": "Arriaga, David Andrew", 
+                "office": "Interfraternity Council Representative", 
+                "username": "arriagda"
+            }, 
+            {
+                "name": "Merchant, Alexander Ryan", 
+                "office": "Interfraternity Council Representative", 
+                "username": "merchaar"
+            }, 
+            {
+                "name": "Varner, Michael Austin", 
+                "office": "Public Relations Director", 
+                "username": "varnerma"
+            }, 
+            {
+                "name": "Quinn, Kyle Joseph", 
+                "office": "Alumni Director", 
+                "username": "quinnkj"
+            }, 
+            {
+                "name": "Slifer, Jacob Duane", 
+                "office": "Chaplain", 
+                "username": "sliferjd"
+            }, 
+            {
+                "name": "Piekos, Gregory Vincent", 
+                "office": "Editor", 
+                "username": "piekosgv"
+            }, 
+            {
+                "name": "Cepa, Reid William", 
+                "office": "Historian", 
+                "username": "ceparw"
+            }, 
+            {
+                "name": "McCammon, Joshua Ryan", 
+                "office": "Technical Director", 
+                "username": "mccammjr"
+            }, 
+            {
+                "name": "Jawaid, Samad Shad", 
+                "office": "Webmaster", 
+                "username": "jawaidss"
+            }, 
+            {
+                "name": "Cepa, Reid William", 
+                "office": "Student Government Representative", 
+                "username": "ceparw"
+            }, 
+            {
+                "name": "Kabealo, Jacob Scott", 
+                "office": "Song Leader", 
+                "username": "kabealjs"
+            }
+        ], 
+        "type": "Appointed"
+    }
+]
