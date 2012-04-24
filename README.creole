@@ -9,5 +9,5 @@ cd ~/workspace/dsp-zl/src/
 }}}
 
 {{{
-./make
+./make.py
 }}}
