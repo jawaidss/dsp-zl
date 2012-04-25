@@ -18,24 +18,29 @@ def load(json_filename):
 
 def mungify(username):
     mailto = 'mailto:%s@rose-hulman.edu' % username
-    return ''.join(['&#%s;' % (ord(c)) for c in mailto])
+    return ''.join(['&#%s;' % ord(c) for c in mailto])
 
 actives = load('actives.json')
 officers = load('officers.json')
 pledges = load('pledges.json')
 
 global_context = {
-    'contact': '#',
-    'webmaster': '#',
+    'contact_href': '#',
+    'webmaster_href': '#',
     'year': date.today().year
 }
 
+president = None
+rush_director = None
 for officer_type in officers:
     for officer in officer_type['officers']:
         if officer['office'] == 'President':
-            global_context['contact'] = mungify(officer['username'])
+            global_context['president_href'] = mungify(officer['username'])
+            president = officer
         elif officer['office'] == 'Webmaster':
-            global_context['webmaster'] = mungify(officer['username'])
+            global_context['webmaster_href'] = mungify(officer['username'])
+        elif officer['office'] == 'Rush Director':
+            rush_director = officer
 
 media = {
     'files': [
@@ -67,12 +72,12 @@ def main():
     render('brothers.html', {'actives': actives})
     render('chapter.html')
     render('fraternity.html')
-    render('index.html')
+    render('index.html', {'president': president})
     render('officers.html', {'officers': officers})
     render('philanthropy.html')
     render('pledges.html', {'pledges': pledges})
     render('preamble.html')
-    render('rush.html')
+    render('rush.html', {'rush_director_href': mungify(rush_director['username'])})
     render('social.html')
     for file_ in media['files']:
         shutil.copy(file_, os.path.join(path, file_))
