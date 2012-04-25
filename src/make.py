@@ -25,7 +25,7 @@ officers = load('officers.json')
 pledges = load('pledges.json')
 
 global_context = {
-    'contact_href': '#',
+    'president_href': '#',
     'webmaster_href': '#',
     'year': date.today().year
 }
