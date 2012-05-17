@@ -1,5 +1,12 @@
 {% extends "base.html" %}
 
+{% block css %}
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+{% endblock %}
+
 {% block content %}
 <div class="page-header">
     <h1>Officers</h1>
@@ -25,7 +32,7 @@
                     <tbody>
                         {% for officer in officer_type.officers %}
                             <tr>
-                                <td>{{ officer.username }}</td>
+                                <td><img src="static/img/portraits/{{ officer.username }}.jpg" alt="{{ officer.name }}"></td>
                                 <td>{{ officer.name }}</td>
                                 <td>{{ officer.office }}</td>
                             </tr>
@@ -47,11 +54,11 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>grigg</td>
+                    <td><img src="static/img/portraits/grigg.jpg" alt="Grigg, Cliff"></td>
                     <td>Grigg, Cliff</td>
                 </tr>
                 <tr>
-                    <td>webster</td>
+                    <td><img src="static/img/portraits/webster.jpg" alt="Webster, Ben"></td>
                     <td>Webster, Ben</td>
                 </tr>
             </tbody>

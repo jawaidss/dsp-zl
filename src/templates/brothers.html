@@ -1,5 +1,12 @@
 {% extends "base.html" %}
 
+{% block css %}
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+{% endblock %}
+
 {% block content %}
 <div class="page-header">
     <h1>Brothers</h1>
@@ -26,7 +33,7 @@
                         <tbody>
                             {% for active in active_year.actives %}
                                 <tr>
-                                    <td>{{ active.username }}</td>
+                                    <td><img src="static/img/portraits/{{ active.username }}.jpg" alt="{{ active.name }}"></td>
                                     <td>{{ active.name }}</td>
                                     <td>{{ active.hometown }}</td>
                                     <td>{{ active.major }}</td>
