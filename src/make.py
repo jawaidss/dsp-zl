@@ -25,6 +25,11 @@ officers = load('officers.json')
 pledges = load('pledges.json')
 
 global_context = {
+    'hares': [
+        (2008, 2009, ['Spring']),
+        (2009, 2010, ['Fall', 'Winter', 'Spring']),
+        (2010, 2011, ['Fall', 'Winter', 'Spring']),
+    ],
     'president_href': '#',
     'webmaster_href': '#',
     'year': date.today().year
