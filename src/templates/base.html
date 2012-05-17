@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Delta Sigma Phi Fraternity | Zeta Lambda Chapter | Rose-Hulman Institute of Technology">
         <link href="static/css/bootstrap.min.css" rel="stylesheet">
+        {% block extrahead %}{% endblock %}
         <style>
             body {
                 padding-top: 60px;
@@ -99,6 +100,7 @@
         </div>
         <script src="static/js/jquery.min.js"></script>
         <script src="static/js/bootstrap.min.js"></script>
+        {% block extrabody %}{% endblock %}
         <script>
             $(function() {
                 $("a[href^=http]").attr("target", "_blank");

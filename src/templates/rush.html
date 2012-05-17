@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 
+{% block extrahead %}
+<link href="static/css/fullcalendar.css" rel="stylesheet">
+<link href="static/css/fullcalendar.print.css" rel="stylesheet" media="print">
+{% endblock %}
+
 {% block content %}
 <div class="page-header">
     <h1>Rush</h1>
@@ -16,4 +21,8 @@
 <p>Sincerely,</p>
 <p>The Men of Delta Sigma Phi, Zeta Lambda Chapter</p>
 <p><a href="{{ rush_director_href }}">Contact Rush Director</a></p>
+{% endblock %}
+
+{% block extrabody %}
+<script src="static/js/fullcalendar.min.js"></script>
 {% endblock %}
