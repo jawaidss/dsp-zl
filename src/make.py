@@ -28,7 +28,7 @@ global_context = {
     'hares': [
         (2008, 2009, ['Spring']),
         (2009, 2010, ['Fall', 'Winter', 'Spring']),
-        (2010, 2011, ['Fall', 'Winter', 'Spring']),
+        (2010, 2011, ['Fall', 'Winter']),
     ],
     'president_href': '#',
     'webmaster_href': '#',
