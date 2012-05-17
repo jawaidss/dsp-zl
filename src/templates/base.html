@@ -101,6 +101,7 @@
         <script src="static/js/bootstrap.min.js"></script>
         <script>
             $(function() {
+                $("a[href^=http]").attr("target", "_blank");
                 {% block jquery %}{% endblock %}
             });
         </script>
