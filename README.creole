@@ -11,3 +11,19 @@ cd ~/workspace/dsp-zl/src/
 {{{
 ./make.py
 }}}
+
+= To-do =
+
+# Finish up index page
+# Finish up rush page
+# Add pictures throughout
+** Porch pics
+** Senior pic
+** Crest
+** Pledge pin
+** Formal chapter group pics
+# Move pledges to actives
+# Change webmaster
+# Update portraits
+# Document list of annual changes
+# Document deployment
