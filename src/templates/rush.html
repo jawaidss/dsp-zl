@@ -5,26 +5,36 @@
 <link href="static/css/fullcalendar.print.css" rel="stylesheet" media="print">
 {% endblock %}
 
+{% block css %}
+#calendar {
+    margin-bottom: 9px;
+}
+{% endblock %}
+
 {% block content %}
 <div class="page-header">
     <h1>Rush</h1>
 </div>
-<p>The men of Delta Sigma Phi would like to welcome you to Rose-Hulman and encourage you to consider the benefits associated with joining a fraternity seriously. The next six weeks will be very enlightening as to what Greek life is all about. We understand that Greek life is not for every man, but we request that you keep an open mind to fraternities in general. We do hope that you experience the fall rush to learn about the life-long commitments, life-long friendships, and life-changing experiences that Greek life will provide.</p>
-<p>At Delta Sigma Phi, we are committed to building better men through leadership, campus involvement, and our dedicated principles of chivalry and loyalty to man. We are also a very diverse fraternity, which can be traced historically to the fraternity's founding at the City College of New york in 1899, where Delta Sig was established uniquely on the principle of religious tolerance between Christianity and Judaism. We also follow a strict no-hazing policy for all members and pledges.</p>
-<p>The Zeta Lambda Chapter of the Delta Sigma Phi fraternity can be found at 429 S. 6th Street in downtown Terre Haute. Although we may be off-campus, we find that living away from Rose-Hulman is a fantastic way to get a break from the hard and stressful work that our education sometimes provides.</p>
-<p>On campus, you will find Delta Sig's involved with many clubs, sports, and residence hall staff. We are currently very active with the Paintball Club, Outdoor Venture Club, The Monkey, and the Student Alumni Association, just to name a few. We also have brothers on the swimming and cross-country teams. Being such a diverse group of men at Delta Sig makes it easy for anyone to find a common interest with our brothers.</p>
-<p>We also highly value service to the community here at Delta Sigma Phi. We annually are involved with fraternity service projects directly benefiting the American Red Cross and the March of Dimes. We encourage all brothers to participate in other community service events, and are always involved with any Rose-Hulman sponsored service events.</p>
-<p>Of course, at Rose-Hulman, we are all here to get a great education, and the men of Delta Sigma Phi fully commit to making academics as good as possible. Brothers of Delta Sig are always working together on their coursework, helping each other with homework and other schoolwork. We find that being directly connected with older brothers who have taken the classes you need to take to be a great peer-tutoring network. Our study habits support that Delta Sigma Phi holds one of the best academic averages on campus.</p>
-<p>And at Delta Sigma Phi, we do like having fun, too. We hold regular events with all Rose-Hulman sororities as well as ISU sororities. We also schedule exclusive brother-only events on many weekends, such as cookouts, road trips, and other fun things to do outside of Terre Haute. Being a Delta Sig will provide some of the best experiences you can ask for in college, and will result in lifelong relationships that would not otherwise occur as a regular Rose-Hulman student.</p>
-<p>The bond of brotherhood in Delta Sig does not end with graduation, however. Our alumni regularly return to our house and give back to Delta Sig. The time invested in brotherhood at Delta Sig will have lifelong rewards, and our alumni are proof of what is to come from joining Delta Sig.</p>
-<p>We all are very excited to meet each and every one of you. We hope that you truly enjoy your experience in rush in the next six weeks, and we appreciate your interest in exploring what being part of Delta Sigma Phi is all about. </p>
-<p>Sincerely,</p>
-<p>The Men of Delta Sigma Phi, Zeta Lambda Chapter</p>
-<div>
-    <a href="{{ rush_director_href }}" class="btn btn-primary"><i class="icon-envelope icon-white"></i> Contact Rush Director</a>
+<div class="row">
+    <div class="span6">
+        <h2>A letter from the men of Delta Sigma Phi</h2>
+        <p>The men of Delta Sigma Phi would like to welcome you to Rose-Hulman and encourage you to consider the benefits associated with joining a fraternity seriously. The next six weeks will be very enlightening as to what Greek life is all about. We understand that Greek life is not for every man, but we request that you keep an open mind to fraternities in general. We do hope that you experience the fall rush to learn about the life-long commitments, life-long friendships, and life-changing experiences that Greek life will provide.</p>
+        <p>At Delta Sigma Phi, we are committed to building better men through leadership, campus involvement, and our dedicated principles of chivalry and loyalty to man. We are also a very diverse fraternity, which can be traced historically to the fraternity's founding at the City College of New york in 1899, where Delta Sig was established uniquely on the principle of religious tolerance between Christianity and Judaism. We also follow a strict no-hazing policy for all members and pledges.</p>
+        <p>The Zeta Lambda Chapter of the Delta Sigma Phi fraternity can be found at 429 S. 6th Street in downtown Terre Haute. Although we may be off-campus, we find that living away from Rose-Hulman is a fantastic way to get a break from the hard and stressful work that our education sometimes provides.</p>
+        <p>On campus, you will find Delta Sig's involved with many clubs, sports, and residence hall staff. We are currently very active with the Paintball Club, Outdoor Venture Club, The Monkey, and the Student Alumni Association, just to name a few. We also have brothers on the swimming and cross-country teams. Being such a diverse group of men at Delta Sig makes it easy for anyone to find a common interest with our brothers.</p>
+        <p>We also highly value service to the community here at Delta Sigma Phi. We annually are involved with fraternity service projects directly benefiting the American Red Cross and the March of Dimes. We encourage all brothers to participate in other community service events, and are always involved with any Rose-Hulman sponsored service events.</p>
+        <p>Of course, at Rose-Hulman, we are all here to get a great education, and the men of Delta Sigma Phi fully commit to making academics as good as possible. Brothers of Delta Sig are always working together on their coursework, helping each other with homework and other schoolwork. We find that being directly connected with older brothers who have taken the classes you need to take to be a great peer-tutoring network. Our study habits support that Delta Sigma Phi holds one of the best academic averages on campus.</p>
+        <p>And at Delta Sigma Phi, we do like having fun, too. We hold regular events with all Rose-Hulman sororities as well as ISU sororities. We also schedule exclusive brother-only events on many weekends, such as cookouts, road trips, and other fun things to do outside of Terre Haute. Being a Delta Sig will provide some of the best experiences you can ask for in college, and will result in lifelong relationships that would not otherwise occur as a regular Rose-Hulman student.</p>
+        <p>The bond of brotherhood in Delta Sig does not end with graduation, however. Our alumni regularly return to our house and give back to Delta Sig. The time invested in brotherhood at Delta Sig will have lifelong rewards, and our alumni are proof of what is to come from joining Delta Sig.</p>
+        <p>We all are very excited to meet each and every one of you. We hope that you truly enjoy your experience in rush in the next six weeks, and we appreciate your interest in exploring what being part of Delta Sigma Phi is all about. </p>
+        <p>Sincerely,</p>
+        <p>The Men of Delta Sigma Phi, Zeta Lambda Chapter</p>
+    </div>
+    <div class="span6">
+        <div id="calendar"></div>
+        <p><a href="{{ rush_director_href }}" class="btn btn-primary btn-large"><i class="icon-envelope icon-white"></i> Contact Rush Director</a></p>
+    </div>
 </div>
-<h2>Calendar</h2>
-<div id="calendar"></div>
 {% endblock %}
 
 {% block extrabody %}

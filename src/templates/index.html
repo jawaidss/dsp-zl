@@ -1,21 +1,32 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="page-header">
-    <h1>{{ ' '.join(president['name'].split(', ')[::-1]) }} <small>President</small></h1>
-</div>
-<p>Hello and welcome to the website for the Zeta Lambda Chapter of the Delta Sigma Phi Fraternity.</p>
-<p>Greek life at Rose-Hulman is a very unique experience, and I encourage all incoming students to take the time and explore every fraternity and make an informed decision. I promise that the typical "wild and out of control" view of fraternity life is very much a misconception at Rose-Hulman.</p>
-<p>I consider our chapter to be one of the most diverse groups of people on campus. On a given weekend, we have brothers participating in swim meets, track meets, Ultimate Frisbee matches, movie or TV marathons at the house, video game tournaments, and a multitude of other activities. It is this quality that led me to pledge Delta Sig, and I think our greatest strength lies in our ability to combine people of different backgrounds and experiences into a cohesive group.</p>
-<p>Academics are very important to me, and Rose-Hulman has a very demanding curriculum that is not the easiest to adjust to for some people. Our chapter consistently has one of the highest GPA's among fraternities at Rose, but it is not because we have a super-strict academic policy or that we recruit members just for their high GPA. We excel because we provide an understanding support group to all members. Our academic committee is working on providing incentives for high performance, and upperclassmen are constantly helping younger guys with homework. We're all engineers, and we all help each other succeed.</p>
-<p>I cannot stress enough how much I have grown as a person because of Delta Sigma Phi. I have attended two leadership conferences with lectures on everything from fiscal responsibility to social excellence. The opportunities to lead and serve the community are endless with Delta Sig, and I have yet to see somebody not grow as a person from being a member of our chapter.</p>
-<p>Let me thank you for taking the time to read this letter and visit our website. Please take the time to learn everything that you need to from our self-designed and regulated website. If you have any questions, please <a href="{{ president_href }}">contact me</a> and I would be more than happy to answer them.</p>
-<p>Sincerely,</p>
-<p><img src="static/img/signature-{{ president.username }}.png" alt="{{ ' '.join(president['name'].split(', ')[::-1]) }}" /></p>
-<p>{{ ' '.join(president['name'].split(', ')[::-1]) }}</p>
-<p>Delta Sigma Phi Fraternity</p>
-<p>Zeta Lambda Chapter President</p>
 <div class="hero-unit">
-    <iframe width="420" height="315" src="http://www.youtube.com/embed/A4dlXvg4Ra8" frameborder="0" allowfullscreen></iframe>
+    <h1>Delta Sigma Phi Fraternity<br>Zeta Lambda Chapter</h1>
+    <p>Rose-Hulman Institute of Technology</p>
+</div>
+<div class="row">
+    <div class="span7">
+        <div class="page-header">
+            <h1>A letter from the president <small>{{ ' '.join(president['name'].split(', ')[::-1]) }}</small></h1>
+        </div>
+        <p>Hello and welcome to the website for the Zeta Lambda Chapter of the Delta Sigma Phi Fraternity.</p>
+        <p>Greek life at Rose-Hulman is a very unique experience, and I encourage all incoming students to take the time and explore every fraternity and make an informed decision. I promise that the typical "wild and out of control" view of fraternity life is very much a misconception at Rose-Hulman.</p>
+        <p>I consider our chapter to be one of the most diverse groups of people on campus. On a given weekend, we have brothers participating in swim meets, track meets, Ultimate Frisbee matches, movie or TV marathons at the house, video game tournaments, and a multitude of other activities. It is this quality that led me to pledge Delta Sig, and I think our greatest strength lies in our ability to combine people of different backgrounds and experiences into a cohesive group.</p>
+        <p>Academics are very important to me, and Rose-Hulman has a very demanding curriculum that is not the easiest to adjust to for some people. Our chapter consistently has one of the highest GPA's among fraternities at Rose, but it is not because we have a super-strict academic policy or that we recruit members just for their high GPA. We excel because we provide an understanding support group to all members. Our academic committee is working on providing incentives for high performance, and upperclassmen are constantly helping younger guys with homework. We're all engineers, and we all help each other succeed.</p>
+        <p>I cannot stress enough how much I have grown as a person because of Delta Sigma Phi. I have attended two leadership conferences with lectures on everything from fiscal responsibility to social excellence. The opportunities to lead and serve the community are endless with Delta Sig, and I have yet to see somebody not grow as a person from being a member of our chapter.</p>
+        <p>Let me thank you for taking the time to read this letter and visit our website. Please take the time to learn everything that you need to from our self-designed and regulated website. If you have any questions, please <a href="{{ president_href }}">contact me</a> and I would be more than happy to answer them.</p>
+        <p>Sincerely,</p>
+        <p><img src="static/img/signature-{{ president.username }}.png" alt="{{ ' '.join(president['name'].split(', ')[::-1]) }}" /></p>
+        <p>{{ ' '.join(president['name'].split(', ')[::-1]) }}</p>
+        <p>Delta Sigma Phi Fraternity</p>
+        <p>Zeta Lambda Chapter President</p>
+    </div>
+    <div class="span5">
+        <div class="page-header">
+            <h1>All In for Delta Sig</h1>
+        </div>
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/A4dlXvg4Ra8" frameborder="0" allowfullscreen></iframe>
+    </div>
 </div>
 {% endblock %}
