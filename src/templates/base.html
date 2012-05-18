@@ -95,7 +95,8 @@
             {% block content %}{% endblock %}
             <hr>
             <footer>
-                <p>&copy; {{ year }} &#916;&#931;&#934; &#918;&#923; &bull; 429 S. 6<sup>th</sup> St. &bull; Terre Haute, IN 47807 &bull; (812) 234-0969</p>
+                <p class="pull-left">&copy; {{ year }} &#916;&#931;&#934; &#918;&#923; &bull; 429 S. 6<sup>th</sup> St. &bull; Terre Haute, IN 47807 &bull; (812) 234-0969</p>
+                <p class="pull-right"><a href="#" class="btn btn-mini" id="top" title="Back to top"><i class="icon-arrow-up"></i></a></p>
             </footer>
         </div>
         <script src="static/js/jquery.min.js"></script>
@@ -104,6 +105,10 @@
         <script>
             $(function() {
                 $("a[href^=http]").attr("target", "_blank");
+                $("#top").click(function() {
+                    $("html, body").animate({scrollTop: 0}, "slow");
+                    return false;
+                }).tooltip();
                 {% block jquery %}{% endblock %}
             });
         </script>
