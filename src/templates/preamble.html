@@ -1,5 +1,11 @@
 {% extends "base.html" %}
 
+{% block css %}
+img {
+    max-width: 100%;
+}
+{% endblock %}
+
 {% block content %}
 <div class="page-header">
     <h1>The Preamble of the Delta Sigma Phi Fraternity</h1>
@@ -10,4 +16,12 @@
 <p>That the sanctity of the home and the sacredness of the family bond, the hearthstone of our enlightened civilization, and the chivalry of man toward woman, shall be maintained and protected by us, not only for ourselves and our posterity, but also for the good of all mankind.</p>
 <p>That a symmetrical culture, a fraternal communion among the colleges of this country, and a brotherhood of men, whose ideals and beliefs are those of modern civilization, are essential to the welfare of our college men.</p>
 <p>In furtherance of these aims, this Fraternity has recognized certain standards of attainment and gentlemanly conduct, expressed in the ideals symbolically represented by the three Greek letters, Delta, Sigma, Phi; and it shall be the constant endeavor of the brothers who may be called to preside over and govern the Fraternity, or its component chapters, to enforce the precepts of the Fraternity by every reasonable means within their power, and they, and each brother of the Fraternity shall exemplify those principles by conduct as well as enforcement in order that the Fraternity may grow and prosper with honor to itself and that the world may ever be convinced of the sincerity of our purpose.</p>
+<div class="row">
+    <div class="span6">
+        <img src="static/img/preamble/crest.png" alt="Crest">
+    </div>
+    <div class="span6">
+        <img src="static/img/preamble/pledge-pin.png" alt="Pledge Pin">
+    </div>
+</div>
 {% endblock %}

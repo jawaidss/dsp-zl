@@ -15,11 +15,6 @@ cd ~/workspace/dsp-zl/src/
 = To-do =
 
 # Add pictures throughout
-** Porch pics
-** Senior pic
-** Crest
-** Pledge pin
-** Formal chapter group pics
 # Move pledges to actives
 # Change webmaster
 # Update portraits
