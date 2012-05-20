@@ -6,10 +6,20 @@
 
 {{{
 cd ~/workspace/dsp-zl/src/
+./make.py
 }}}
 
+= Deployment =
+
 {{{
-./make.py
+cd ~/workspace/dsp-zl/src/
+tar cfz dsp-zl.tar.gz -C out/ .
+scp dsp-zl.tar.gz jawaidss@addiator.rose-hulman.edu:~/.
+ssh jawaidss@addiator.rose-hulman.edu
+    rm -r /afs/rose-hulman.edu/users/groups/DeltaSigmaPhi/*
+    tar xfz dsp-zl.tar.gz -C /afs/rose-hulman.edu/users/groups/DeltaSigmaPhi/
+    rm dsp-zl.tar.gz
+rm dsp-zl.tar.gz
 }}}
 
 = To-do =
@@ -19,4 +29,3 @@ cd ~/workspace/dsp-zl/src/
 # Change webmaster
 # Update portraits
 # Document list of annual changes
-# Document deployment
