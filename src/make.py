@@ -73,7 +73,6 @@ def main():
     if os.path.exists(path):
         shutil.rmtree(path)
     os.mkdir(path)
-    render('404.html')
     render('activities.html')
     render('brothers.html', {'actives': actives})
     render('chapter.html')
