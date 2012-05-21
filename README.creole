@@ -26,13 +26,13 @@ rm dsp-zl.tar.gz
 
 == Hares ==
 
-* Update the {{{ global_context['hares'] }}} variable in **src/make.py**.
+* Update the {{{global_context['hares']}}} variable in **src/make.py**.
 * Add the pdf file to **src/static/pdf/**.
-** {{{ hare-term-year1-year2.pdf }}}
+** {{{hare-term-year1-year2.pdf}}}
 
 == Rush ==
 
-* Update the {{{ year }}}, {{{ month }}}, and {{{ events }}} variables in **src/templates/rush.html**.
+* Update the {{{year}}}, {{{month}}}, and {{{events}}} variables in **src/templates/rush.html**.
 
 == Pledges ==
 
@@ -47,7 +47,7 @@ rm dsp-zl.tar.gz
 * Update **src/json/officers.json**.
 * Update the president's letter in **src/templates/index.html**.
 * Add the png file of the president's signature in **src/static/img/index/**.
-** {{{ signature-username.png }}}
+** {{{signature-username.png}}}
 
 == Seniors ==
 
