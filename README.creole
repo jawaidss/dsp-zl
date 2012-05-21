@@ -22,10 +22,51 @@ ssh jawaidss@addiator.rose-hulman.edu
 rm dsp-zl.tar.gz
 }}}
 
+= Maintenance =
+
+== Hares ==
+
+* Update the {{{ global_context['hares'] }}} variable in **src/make.py**.
+* Add the pdf file to **src/static/pdf/**.
+** {{{ hare-term-year1-year2.pdf }}}
+
+== Rush ==
+
+* Update the {{{ year }}}, {{{ month }}}, and {{{ events }}} variables in **src/templates/rush.html**.
+
+== Pledges ==
+
+* Update **src/json/pledges.json**.
+
+== Actives ==
+
+* Update **src/json/actives.json**.
+
+== Officers ==
+
+* Update **src/json/officers.json**.
+* Update the president's letter in **src/templates/index.html**.
+* Add the png file of the president's signature in **src/static/img/index/**.
+** {{{ signature-username.png }}}
+
+== Seniors ==
+
+* Update **src/static/img/index/seniors.jpg**.
+
+== Porch Pic ==
+
+* Update **src/static/img/index/porch-pic.jpg** and **src/static/img/index/porch-pic-alt.jpg**.
+
+== Optional ==
+
+* Update the rush letter in **src/templates/rush.html**.
+* Update the text in **src/templates/activities.html**.
+* Update the text in **src/templates/social.html**.
+* Update the text in **src/templates/philanthropy.html**.
+
 = To-do =
 
 # Add pictures throughout
 # Move pledges to actives
 # Change webmaster
 # Update portraits
-# Document list of annual changes
