@@ -1,5 +1,11 @@
 {% extends "base.html" %}
 
+{% block css %}
+img {
+    max-width: 100%;
+}
+{% endblock %}
+
 {% block content %}
 <div class="page-header">
     <h1>Social</h1>
@@ -8,4 +14,45 @@
     <p>All work and no play makes Jack a dull boy.</p>
 </blockquote>
 <p>The men of Delta Sigma Phi strive for a balanced life of academics and social interaction. We host several parties every year at our house on South Sixth Street in downtown Terre Haute and engage in socials with sororities from both Rose and Indiana State University. Parties we have hosted in our time at Rose include Festival of Bacchus, Heaven and Hell, Sexy Santa, Mafia, Camp Out, and of course Around the World. In the past, we have invited the women of Delta Delta Delta, Chi Omega, Alpha Omicron Pi, Delta Gamma and others to join us for social mixers including bowling, game nights, cook outs, volunteering at the humane society, and much more. We attempt to have a social with every sorority on Rose-Hulman's campus at least once per quarter. The culmination of the social life of our fraternity is the Carnation Ball, which is a formal event held in the spring of every year. Delta Sigs make every effort to be well-rounded individuals, who understand the value and importance of social interaction.</p>
+<div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="static/img/social/social-1.jpg" alt="Social 1">
+            <div class="carousel-caption">
+                <h4>Carnation Ball</h4>
+                <p>Brothers Cisneros, McGoff, Wojan, Clarke, Jawaid, and Glardon</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="static/img/social/social-2.jpg" alt="Social 2">
+            <div class="carousel-caption">
+                <h4>Carnation Ball</h4>
+                <p>Brother Vershay and his date</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="static/img/social/social-3.jpg" alt="Social 3">
+            <div class="carousel-caption">
+                <h4>Carnation Ball</h4>
+                <p>Brother Wojan and his date</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="static/img/social/social-4.jpg" alt="Social 4">
+            <div class="carousel-caption">
+                <h4>Carnation Ball</h4>
+                <p>Brother Lee and his date</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="static/img/social/social-5.jpg" alt="Social 5">
+            <div class="carousel-caption">
+                <h4>Carnation Ball</h4>
+                <p>Brother Olinger and his date</p>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
 {% endblock %}

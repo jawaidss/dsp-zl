@@ -1,8 +1,55 @@
 {% extends "base.html" %}
 
+{% block css %}
+img {
+    max-width: 100%;
+}
+{% endblock %}
+
 {% block content %}
 <div class="page-header">
     <h1>Philanthropy</h1>
 </div>
 <p>The Zeta Lambda chapter of Delta Sigma Phi at the Rose-Hulman Institute of Technology is constantly seeking to promote philanthropic efforts in order to serve the community. The most prominent relationship that Delta Sigma Phi shares is with the March of Dimes. While community service is a staple activity in the fraternity, the largest event that the fraternity hosts and supports is the annual 24-hour Basketball Marathon. The marathon raises funds each winter for the March of Dimes. Delta Sigma Phi is consistently acknowledged by the March of Dimes as one of the highest donating groups.</p>
+<div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="static/img/philanthropy/philanthropy-1.jpg" alt="Philanthropy 1">
+            <div class="carousel-caption">
+                <h4>Trees</h4>
+                <p>Brothers Drake, Varner, Arriaga, Clarke, Alvarez, Quinn, R. Moore, Cisneros, Zalah, and Stephens</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="static/img/philanthropy/philanthropy-2.jpg" alt="Philanthropy 2">
+            <div class="carousel-caption">
+                <h4>Fire Truck Pull</h4>
+                <p>Brothers Quinn, Catlow, King, O'Connor, Schulten, J. Warmoth, McDonough, Kilker, and Gosnell</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="static/img/philanthropy/philanthropy-3.jpg" alt="Philanthropy 3">
+            <div class="carousel-caption">
+                <h4>Basketball Marathon</h4>
+                <p>Brother Swift</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="static/img/philanthropy/philanthropy-4.jpg" alt="Philanthropy 4">
+            <div class="carousel-caption">
+                <h4>Basketball Marathon</h4>
+                <p>Brothers Drakontis, Goodrich, Ringwood, Pepin, and Schlachter</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="static/img/philanthropy/philanthropy-5.jpg" alt="Philanthropy 5">
+            <div class="carousel-caption">
+                <h4>Basketball Marathon</h4>
+                <p>Brother Zero</p>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
 {% endblock %}

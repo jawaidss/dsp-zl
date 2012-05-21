@@ -67,10 +67,12 @@ rm dsp-zl.tar.gz
 * Update the text in **src/templates/activities.html**.
 * Update the text in **src/templates/social.html**.
 * Update the text in **src/templates/philanthropy.html**.
+* Update the pictures in **src/static/img/activities/** and the references in **src/templates/activities.html**.
+* Update the pictures in **src/static/img/social/** and the references in **src/templates/social.html**.
+* Update the pictures in **src/static/img/philanthropy/** and the references in **src/templates/philanthropy.html**.
 
 = To-do =
 
-# Add pictures throughout
 # Move pledges to actives
 # Change webmaster
 # Update portraits
