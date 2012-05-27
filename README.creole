@@ -41,13 +41,13 @@ rm dsp-zl.tar.gz
 == Pledges ==
 
 * Update **src/json/pledges.json**.
-* Update the portraits in **src/static/img/portraits/pledges/**
+* Update the portraits in **src/static/img/portraits/pledges/**.
 ** {{{username.jpg}}}
 
 == Actives ==
 
 * Update **src/json/actives.json**.
-* Update the portraits in **src/static/img/portraits/**
+* Update the portraits in **src/static/img/portraits/**.
 ** {{{username.jpg}}}
 
 == Officers ==
