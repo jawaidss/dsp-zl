@@ -41,10 +41,14 @@ rm dsp-zl.tar.gz
 == Pledges ==
 
 * Update **src/json/pledges.json**.
+* Update the portraits in **src/static/img/portraits/pledges/**
+** {{{username.jpg}}}
 
 == Actives ==
 
 * Update **src/json/actives.json**.
+* Update the portraits in **src/static/img/portraits/**
+** {{{username.jpg}}}
 
 == Officers ==
 
@@ -52,6 +56,7 @@ rm dsp-zl.tar.gz
 * Update the president's letter in **src/templates/index.html**.
 * Add the png file of the president's signature in **src/static/img/index/**.
 ** {{{signature-username.png}}}
+* Remove the png file of the former president's signature in **src/static/img/index/**.
 
 == Seniors ==
 
